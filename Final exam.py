@@ -7,13 +7,13 @@ games = input("List 3 of your favorite PC games:")
 for x in games:
 
     print("   ")
-    if budget >= 450 and budget < 500:
+    if budget >= 450 and budget <= 500:
         print("Perfect Budget and Great Choice of games.")
         print("These are you specs, Processer: Intel i3  GPU: Gtx 980  Ram: 4gb ballistix ddr4 Case: Thermaltake CA-1B3-00M1NN-00 Versa")
         print("  ")
         break
         continue
-    elif budget >= 550 and budget < 600:
+    elif budget >= 501 and budget < 600:
         print("Perfect Budget and Great Choice of games.")
         print("These are your specs, Processer: Intel i5 7700. GPU: Gtx 980. Ram: 4gb ballistix. ddr4 Case:Cooler Master MasterBox Lite 3.1  ")
         print("  ")

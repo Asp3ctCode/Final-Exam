@@ -15,7 +15,7 @@ for x in games:
         continue
     elif budget >= 550 and budget < 600:
         print("Perfect Budget and Great Choice of games.")
-        print("These are your specs, Processer: Intel i5 7700. GPU: Gtx 980.  Ram: 4gb ballistix. ddr4 Case: Cooler MasterBox Lite 3.1  ")
+        print("These are your specs, Processer: Intel i5 7700. GPU: Gtx 980. Ram: 4gb ballistix. ddr4 Case:Cooler Master MasterBox Lite 3.1  ")
         print("  ")
         break
         continue
